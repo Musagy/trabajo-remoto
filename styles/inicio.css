@@ -2,7 +2,8 @@
 
 body{
     display: grid;
-    grid-template-rows: auto 27rem 1fr 15rem;
+    grid-template-rows: auto 27rem 1fr;
+    /* grid-template-rows: auto 27rem 1fr 15rem; */
     overflow-x: hidden;
 }
 .slider-container{
@@ -11,9 +12,9 @@ body{
 .fav-container{
     background-color: #3b5f34;
 }
-.footer-container{
+/* .footer-container{
     background-color: #191d16;
-}
+} */
 
 /* slider propiedades */
 .slider-container{
