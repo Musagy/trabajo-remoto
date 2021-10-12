@@ -25,13 +25,15 @@ html{
 .presentacion img{
   margin: auto;
   width: 100%;
+  border: 5px solid white;
+  border-radius: 40px;
 }
 .presentacion p{
   background-color: hsla(0, 0%, 100%, 0.719);
   font-weight: 600;
   border-radius: 20px;
   padding: 19px;
-  border: solid 5px rgb(255, 255, 255);
+  border: solid 5px var(--c-pri);
 }
 
 p{
@@ -40,11 +42,10 @@ p{
 
 }
 .footer{
-  background-color: cadetblue;
   width: 100%;
 }
 .caracteristicas{
-  color: white;
+  color: var(--c-pri);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* gap: 40px; */
