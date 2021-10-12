@@ -34,18 +34,54 @@ body{
     height: 27rem;
 }
 .slider-item img{
-    width: 100%;
+    width: 100%; 
     height: 27rem;
     object-fit: cover;
 }
 .slider-item-cont{
-    background-color: hsla(0, 0%, 100%, 0.844);
+    display: grid;
     position: relative;
-    bottom: 300px;
-    left: 100px;
-    height: 200px;
-    width: 200px;
+    bottom: 287px;
+    margin: auto 15%;
+    height: 20rem;
 }
+.slider-item-info{
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px 20px;
+    border-radius: 20px;
+    align-self: start;
+    /* max-width: 60%; */
+}
+.slider-item-info h1{
+    color: var(--c-sec);
+    font-weight: 900;
+    font-size: 3rem;
+}
+.slider-item-info h2{
+    color: black;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.slider-item-cont button{
+    align-self: flex-end;
+    justify-self: end;
+
+    background-color: var(--c-pri);
+    border: none;
+    font-weight: 900;
+    color: var(--c-sec);
+    font-size: 2rem;
+    padding: 10px 15px;
+    border-radius: 12px;
+    opacity: .7;
+}
+.slider-item-cont button:hover{
+    color: var(--c-pri);
+    background-color: var(--c-sec);
+    opacity: 1;
+}
+
+
 .slider-btn{
     position: absolute;
     height: 8rem;
