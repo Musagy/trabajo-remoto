@@ -56,6 +56,9 @@ body{
     color: var(--c-sec);
     font-weight: 900;
     font-size: 3rem;
+    line-height : 2.8rem;
+    margin-bottom: 12px;
+    margin-top: 7px;
 }
 .slider-item-info h2{
     color: black;
